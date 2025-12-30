@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>College Event Management System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", Tahoma, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f9;
+        }
+
+        /* HEADER */
+        header {
+            background: linear-gradient(to right, #2c3e50, #4fa3b1);
+            color: white;
+            padding: 25px 10px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        /* NAVBAR */
+        nav {
+            background-color: white;
+            padding: 12px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 15px;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: #4fa3b1;
+        }
+
+        /* WELCOME SECTION */
+        .welcome {
+            background-color: #eaf3f7;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .welcome h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        .welcome p {
+            max-width: 700px;
+            margin: auto;
+            color: #555;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        /* FEATURES */
+        .features {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 50px 20px;
+            gap: 25px;
+        }
+
+        .card {
+            background-color: white;
+            width: 240px;
+            padding: 25px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        }
+
+        .card h3 {
+            color: #4fa3b1;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        /* CTA SECTION */
+        .cta {
+            background-color: #4fa3b1;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .cta h2 {
+            font-size: 26px;
+            margin-bottom: 10px;
+        }
+
+        .cta p {
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .cta button {
+            padding: 10px 25px;
+            background-color: white;
+            color: #4fa3b1;
+            border: none;
+            border-radius: 5px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .cta button:hover {
+            background-color: #e0f0f4;
+        }
+
+        /* FOOTER */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 13px;
+        }
+
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>College Event Management System</h1>
+        <p>Plan, Manage and Participate in College Events Easily</p>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Events</a>
+        <a href="#">Register</a>
+        <a href="#">Login</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- WELCOME -->
+    <section class="welcome">
+        <h2>Welcome to Our Event Platform</h2>
+        <p>
+            This system helps colleges organize technical, cultural, and sports events efficiently.
+            Students can view events, register online, and stay updated with event schedules.
+        </p>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features">
+        <div class="card">
+            <h3>Event Listing</h3>
+            <p>View all upcoming college events with complete details.</p>
+        </div>
+
+        <div class="card">
+            <h3>Online Registration</h3>
+            <p>Register for events quickly without paperwork.</p>
+        </div>
+
+        <div class="card">
+            <h3>Event Management</h3>
+            <p>Admins can create, update, and manage events easily.</p>
+        </div>
+
+        <div class="card">
+            <h3>Notifications</h3>
+            <p>Get timely updates and reminders about events.</p>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <h2>Ready to Participate?</h2>
+        <p>Register now and be part of exciting college events!</p>
+        <button>Register Now</button>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        © 2025 College Event Management System | Developed for Academic Project
+    </footer>
+
+</body>
+</html>
